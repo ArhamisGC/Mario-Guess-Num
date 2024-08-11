@@ -2,11 +2,11 @@
 This repository contains a fun and interactive number guessing game. The game challenges the player to guess a secret number. If the guessed number is too low or too high, the player is notified accordingly. The game features retro pixelated graphics inspired by Mario Bros and includes a life bar that allows up to 5 attempts.
 
 ## 🚀 Features
-Interactive Gameplay: Players are prompted to guess the secret number.
-Real-time Feedback: Players receive instant feedback if their guess is too low, too high, or correct.
-Life Bar: Players have a life bar with 5 hearts, representing 5 attempts. Each incorrect guess reduces one heart. The game ends when all hearts are depleted.
-Retro Graphics: Enjoy the nostalgia with pixel art graphics inspired by Mario Bros.
-Simple Interface: The game is easy to understand and play, making it accessible for all ages.
+- Interactive Gameplay: Players are prompted to guess the secret number.
+- Real-time Feedback: Players receive instant feedback if their guess is too low, too high, or correct.
+- Life Bar: Players have a life bar with 5 hearts, representing 5 attempts. Each incorrect guess reduces one heart. The game ends when all hearts are depleted.
+- Retro Graphics: Enjoy the nostalgia with pixel art graphics inspired by Mario Bros.
+- Simple Interface: The game is easy to understand and play, making it accessible for all ages.
 ## 🛠️ Technologies Used
 This project is built using the following technologies:
 
