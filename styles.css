@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Mario";
+    src: url("./MarioFont.ttf");
+}
+
+body{
+    font-family: "Mario", sans-serif;
+    color: white;
+    text-shadow: 1px -1px 0 #000,
+    -1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    justify-content: center;
+    display: flex;
+    background-color: #3f4260;
+    z-index: 2;
+}
+
+.game{
+    background-image: url("images/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.background{
+    position: relative;
+    z-index: 0;
+}
+
+.life{
+    position: relative;
+}
+
+.playing {
+    width: 50%;
+    position: relative;
+    align-self: center;
+}
+
+.playing h1{
+    padding: 0 10px 0 10px;
+    font-size: 1.6rem;
+}
+
+.playing img{
+    width: 15%;
+}
+
+.playing input{
+    color: white;
+    background: none;
+    width: 70%;
+}
+
+.game-buttons button{
+    font-family: "Mario", sans-serif;
+    color: white;
+    box-shadow: 5px 5px #000000;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+.play{
+    background-color: green;
+}
+
+.reset{
+    background-color: blue;
+}
+
+
+
