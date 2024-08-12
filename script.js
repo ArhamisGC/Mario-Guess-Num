@@ -12,7 +12,7 @@ let numberGuessValue = 0;
 let numberGuess = 0;
 
 getRandomNumber();
-console.log(randomNum);
+
 function getRandomNumber(){
   randomNum = Math.floor(Math.random() * 10) + 1;
 }
@@ -21,8 +21,8 @@ function playing(){
   numberGuessValue = guessingIpt.value;
   numberGuess = parseInt(numberGuessValue);
   if(numberGuess === randomNum) {
-    console.log("Winner");
     results.innerHTML = "YOU WIN!";
+    playBtn.style.display = 'none';
   }else if(numberGuess < randomNum){
     results.innerHTML = "TRY A HIGHER NUMBER!";
     lifeControl();
