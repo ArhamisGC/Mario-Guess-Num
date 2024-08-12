@@ -7,7 +7,8 @@
 </head>
 <body>
   <div class="game">
-    <div class="life">
+    <div class="life" id="life">
+      100
     </div>
     <div class="playing">
       <h1>GUESS A NUMBER BETWEEN 1 & 10</h1>
@@ -15,8 +16,8 @@
       <h2 id="results">WHAT IS YOUR GUESS?</h2>
       <input type="number" id="guessing" min="1">
       <div id="buttons" class="game-buttons">
-        <button class="play" id="play" onclick="playing()">PLAY</button>
-        <button class="reset" id="reset" onclick="reset()">RESET</button>
+        <button class="play" id="playBtn" onclick="playing()">PLAY</button>
+        <button class="reset" id="resetBtn" onclick="reset()">RESET</button>
       </div>
     </div>
   </div>
