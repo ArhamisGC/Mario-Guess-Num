@@ -6,6 +6,10 @@ This repository contains a fun and interactive number guessing game. The game ch
 - Real-time Feedback: Players receive instant feedback if their guess is too low, too high, or correct.
 - Retro Graphics: Enjoy the nostalgia with pixel art graphics inspired by Mario Bros.
 - Simple Interface: The game is easy to understand and play, making it accessible for all ages.
+## 🌐 Play Online
+You can play the game directly in your browser by visiting the following URL:
+
+[Play Guess the Number Game](https://arhamisgc.github.io/Mario-Guess-Num/)
 ## 🛠️ Technologies Used
 This project is built using the following technologies:
 
